@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: game sampah
+  host: game-sampah
+  disk_quota: 1024M
+  services:
+  - game sampah-AdvancedMobileAccess
+  - game sampah-imfpush
+  - game sampah-cloudantNoSQLDB
